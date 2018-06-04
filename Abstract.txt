@@ -1,0 +1,11 @@
+MQTT Echo Example
+
+Simple example which:
+ - connects to iot.eclipse.org test server
+ - subscribes to a topic "MDK/sample/#"
+ - publishes messages to previously subscribed topic
+ - displays messages received back (echo) 
+ 
+Target:
+- iot.eclipse.org:     uses unsecure connection
+- iot.eclipse.org TLS: uses secure connection (TLS)
